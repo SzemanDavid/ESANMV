@@ -1,1 +1,5 @@
+Az eredeti első méréshez képest annyi változtatás lett, hogy a FID metrika számolásban a wasserstein távolságot vettem segítségül. A 
+változtatásra azért volt szükség, mert a FID értékeim a futás után sok esetben negatív számot adtak eredményül, ami valamilyen mély hálóban
+lévő problémára utalhat.
 
+A 2. mérés által generált képek megtalálhatóak ebben a mappában.
